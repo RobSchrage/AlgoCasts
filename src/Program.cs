@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodingIterviewQuestions
+namespace Main
 {
     class Program
     {
