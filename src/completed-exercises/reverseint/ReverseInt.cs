@@ -21,8 +21,8 @@ namespace Main.completed_exercises.reverseint
         {
             var signString = Math.Sign(intToReverse) == -1 ? "-" : "";
 
-            var reverseInt = signString + 
-               ( new string(Math.Abs(intToReverse)
+            var reverseInt = 
+               ( new string((intToReverse * Math.Sign(intToReverse))
                 .ToString()
                 .Reverse()
                 .ToArray())).TrimStart('0');
