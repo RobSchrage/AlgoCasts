@@ -27,7 +27,7 @@ namespace Main.completed_exercises.reverseint
                 .Reverse()
                 .ToArray())).TrimStart('0');
 
-            return reverseInt;
+            return signString + reverseInt;
         }
     }
 }

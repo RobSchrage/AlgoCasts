@@ -24,14 +24,6 @@ namespace Main.completed_exercises.maxchar.Tests
         }
 
         [Test()]
-        public void FindMaxCharWith2MaxChars()
-        {
-            var actualValue = new MaxChar(_dictionary).Execute("aaabbbcc");
-
-            Assert.AreEqual('a', actualValue);
-        }
-
-        [Test()]
         public void FindMaxCharWithTrailingMaxChar()
         {
             var actualValue = new MaxChar(_dictionary).Execute("aaabbbb");
